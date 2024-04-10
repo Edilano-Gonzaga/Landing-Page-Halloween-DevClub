@@ -226,6 +226,7 @@
       transform: translate(0, 0) rotate(-15deg);
     }
   }
+
   
   @media (max-width: 800px) {
     body {
@@ -260,4 +261,16 @@
       width: 100%;
       text-align: center;
     }
+
+    .container-actions{
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .btn-ghost {
+      background-repeat: no-repeat;
+    }
+
+ 
   }
